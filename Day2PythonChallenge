@@ -10,4 +10,4 @@ is_married = False
 is_true = False
 is_light_on = False
 sports = ('Basketball', 'Baseball', 'Football')
-# Exercises: Level 2
+# Exercises: Level 2 update the values of the variables above to reflect your own information.
