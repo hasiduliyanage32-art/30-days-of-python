@@ -1,0 +1,12 @@
+# Exercises: Level 1
+first_name = 'Hasidu'
+last_name = 'Liyanage'
+full_name = 'Hasidu Liyanage'
+country = 'Canada'
+city = 'Mississauga'
+age = 16
+year = 2010
+is_married = False
+is_true = False
+is_light_on = False
+sports = ('Basketball', 'Baseball', 'Football')
