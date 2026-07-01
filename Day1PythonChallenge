@@ -1,0 +1,87 @@
+# Day 1 - 30DaysofPython Challenge
+
+
+print(2 + 3)             # addition(+)
+print(3 - 1)             # subtraction(-)
+print(2 * 3)             # multiplication(*)
+print(3 / 2)             # division(/)
+print(3 ** 2)            # exponential(**)
+print(3 % 2)             # modulus(%)
+print(3 // 2)            # Floor division operator(//)
+
+
+print(type(10))                      # Integer
+print(type(3.14))                    # Float
+print(type(1 + 3j))                  # Complex Number
+print(type('Asabeneh'))              # String
+print(type([1, 2, 3]))               # List
+print(type({'name':'Asabeneh'}))     # Dictionary
+print(type({9.8, 3.14, 2.7}))        # Set
+print(type((9.8, 3.14, 2.7)))        # Tuple
+
+
+# Exercise: Level 1
+
+print(3 + 4)     #addition
+print(3 - 4)     #subtraction
+print(3 * 4)     #multiplication
+print(3 % 4)     #modulus
+print(3 / 4)     #division
+print(3 ** 4)    #exponential
+print(3 // 4)    #floor divisional operator
+
+# Strings
+
+print("Hasidu")                             # My name
+print("Liyanage")                           # My family name
+print("Sri Lanka")                          # Country
+print("I am enjoying 30 days of python")    # I am enjoying 30 days of python statement
+
+# Different Data Types Activity
+
+print(type(10))         
+print(type(9.8))        
+print(type(3.14))      
+print(type(4 - 4j))     
+print(type(['Asabeneh', 'Python', 'Finland']))
+print(type('Hasidu'))
+print(type('Liyanage'))
+print(type('Sri Lanka'))
+
+
+# Exercise: Level 3 
+
+print(13)
+print(12.2)
+print(1 + 1j)
+print('Cheese')
+print(True)
+print([1, 2, 3, 4])
+print((1.31, 12.5, 2.24))
+print({12.3, 21.4, 31.5})
+print({'First Name':'Hasidu'})
+
+# Finding the euclidean distance
+
+import math # Function which allows for specialized math functions
+
+ans1 = 2 - 10
+ans2 = 3 - 8
+pointA = ans1 ** 2
+pointB = ans2 ** 2
+result1 = pointA + pointB
+
+# Finding the difference of points x1 and x2; Squaring it to find point A
+print(2 - 10)
+print(ans1 ** 2)
+
+# Finding the difference of points y1 and y2; Squaring it to find point B
+print(3 - 8)
+print(ans2 ** 2)
+
+# Adding point A and B to find the squared distance 
+print(pointA + pointB)
+
+# Find the square root to find total distance in between points (2, 3) and (10, 8)
+result1 = math.sqrt(pointA + pointB)
+print(result1)
