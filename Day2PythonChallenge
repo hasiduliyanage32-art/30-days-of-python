@@ -1,3 +1,74 @@
+""""
+User imput or imput = () allows for us to 
+assign the data we want to get from a user
+which is shown below 
+
+"""
+
+first_name = input('What is your name: ')
+age = input('How old are you? ')
+
+print(first_name)
+print(age)
+
+# Different python data types
+
+first_name = 'Asabeneh'     # str
+last_name = 'Yetayeh'       # str
+country = 'Finland'         # str
+city= 'Helsinki'            # str
+age = 250                   # int, it is not my real age, don't worry about it
+
+# Printing out different data types
+
+print(type('Asabeneh'))          # str
+print(type(first_name))          # str
+print(type(10))                  # int
+print(type(3.14))                # float
+print(type(1 + 1j))              # complex
+print(type(True))                # bool
+print(type([1, 2, 3, 4]))        # list
+print(type({'name':'Asabeneh'})) # dict
+print(type((1,2)))               # tuple
+print(type(zip([1,2],[3,4])))    # zip
+
+
+# Casting
+
+#Integer to float
+num_int = 10
+print('num_int', num_int)        # 10
+num_float = float(num_int)
+print('num_float:', num_float)   # 10.0
+
+#Float to Integer
+gravity = 9.81
+print(int(gravity))              # 9
+
+#Integer to String
+num_int = 10
+print(num_int)                   # 10
+num_str = str(num_int)      
+print(num_int)                  # '10'
+
+# String to integer or float
+num_str = '10.6'
+num_float = float(num_str) # Convert string to float
+num_int = int(num_float) # Convert float to integer
+print("num_float:", num_float)          # 10.6
+print("num_int:", num_int)              # 10
+print("num_int:", int(float(num_str)))  # 10
+
+#String to list
+first_name = 'Asabeneh'
+print(first_name)
+first_name_to_list = list(first_name)
+print(first_name_to_list)   # ['A', 's', 'a', 'b', 'e', 'n', 'e', 'h']
+
+
+
+import math
+
 # Exercises: Level 1
 first_name = 'Hasidu'
 last_name = 'Liyanage'
@@ -10,4 +81,58 @@ is_married = False
 is_true = False
 is_light_on = False
 sports = ('Basketball', 'Baseball', 'Football')
-# Exercises: Level 2 update the values of the variables above to reflect your own information.
+num_one = 5
+num_two = 4
+variable_total = num_one + num_two
+variable_diff = num_one - num_two
+variable_product = num_one * num_two
+variable_division = num_one/num_two
+variable_remainder = num_one % num_two
+variable_floordivision = num_one // num_two
+radius = 30
+diameter = 2 * radius
+circum_of_circle = math.pi * diameter
+
+# Exercises: Level 2 
+
+print(type('Hasidu'))
+print(type('Liyanage'))
+print(type('Hasidu Liyanage'))
+print(type('Canada'))
+print(type('Mississauga'))
+print(type(16))
+print(type(2010))
+print(type(False))
+print(type(('Basketball', 'Baseball', 'Football')))
+
+print(len('Hasidu'))
+print(len('Liyanage'))
+
+print(num_one + num_two)       # 5 + 4
+print(num_one - num_two)       # 5 - 4
+print(num_one * num_two)       # 5 * 4
+print(num_one/num_two)         # 5 / 4
+print(num_one % num_two)       # 5 % 4
+print(num_one // num_two)      # 5 // 4
+
+# Area and circumference of a circle
+print(math.pi * radius ** 2)
+print(circum_of_circle)
+
+
+#Letting the user input....
+first_Name = (input("First Name:"))
+last_Name = (input("Last Name:"))
+country = (input("Country:"))
+city = (input("City:"))
+age = (input("Age:"))
+
+
+"""
+Keywords already input into Python
+Cannot be assigned as variables
+help('keywords') shows all keywords in Python
+
+"""
+
+help('keywords')
